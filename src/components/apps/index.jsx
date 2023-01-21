@@ -3,7 +3,21 @@ import "./styles.css"
 const Apps = () => {
     return(
         <section className="appWrapper">
-            <p>a</p>
+            <div className="appItem">
+                <img src="https://via.placeholder.com/45" alt="" />
+            </div>
+
+            <div className="appItem">
+                <img src="https://via.placeholder.com/45" alt="" />
+            </div>
+
+            <div className="appItem">
+                <img src="https://via.placeholder.com/45" alt="" />
+            </div>
+
+            <div className="appItem">
+                <img src="https://via.placeholder.com/45" alt="" />
+            </div>
         </section>
     )
 }
