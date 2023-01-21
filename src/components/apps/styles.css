@@ -1,11 +1,24 @@
 .appWrapper {
     background-color: white;
     width: 70px;
-    height: calc(100vh - 90px);
+    height: calc(180vh - 90px);
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     padding: 20px 0;
     border-right: 1px solid #0047F6;
+}
+
+.appItem {
+    padding: 7px;
+    border-radius: 2px;
+}
+
+.selected {
+    background-color: rgb(204, 204, 204);
+}
+
+.appItem img {
+    width: 25px;
 }
