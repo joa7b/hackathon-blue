@@ -1,0 +1,5 @@
+.appWrapper {
+    background-color: red;
+    width: 70px;
+    height: calc(100vh - 90px);
+}

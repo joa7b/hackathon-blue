@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    background-color: white;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    border-bottom: 1px solid #0047F6;
+}
+
+.headerItem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerItem button {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.headerItem button:last-child {
+    border: 2px solid #0047F6;
+}
+
+.yourway {
+    color: #35AFB7;
+}
